@@ -1,0 +1,140 @@
+﻿
+body {
+    background: #ffe6f0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* כותרת ראשית */
+.main-title {
+    font-size: 80px;
+    margin-top: 40px;
+    letter-spacing: 6px;
+    background: linear-gradient(90deg, #ff5fa2, #c77dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(255, 105, 180, 0.4);
+}
+
+
+.subtitle {
+    font-size: 20px;
+    color: #ff77aa;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    margin-bottom: 40px; 
+}
+
+    .row img {
+        width: 180px;
+        height: 180px;
+        object-fit: cover; 
+        border-radius: 20px; 
+        box-shadow: 0 10px 25px rgba(255, 105, 180, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        
+        .row img:hover {
+            transform: scale(1.08);
+            box-shadow: 0 15px 40px rgba(255, 105, 180, 0.5);
+        }
+
+div {
+    margin-bottom: 20px;
+}
+
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(180deg, #ffe6f0, #fff);
+    min-height: 100vh;
+}
+
+
+.home-title {
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #ff5fa2, #c77dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+
+.home-description {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #ff77aa;
+    max-width: 700px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+
+.home-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+    .home-buttons .btn {
+        padding: 15px 25px;
+        border-radius: 12px;
+        background: linear-gradient(90deg, #ff5fa2, #c77dff);
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+        .home-buttons .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(255, 95, 162, 0.5);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

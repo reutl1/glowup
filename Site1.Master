@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="GlowUp.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>GLOW UP</title>
+    <link href="style.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <div>
+        <a href="Home.aspx">Home</a>
+        <a href="Gallery.aspx">Gallery</a>
+        <a href="SignIn.aspx">Sign In</a>
+        <a href="Special.aspx">Special</a>
+
+
+        
+    </div>
+  
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    <div>
+     
+    </div>
+  
+</body>
+</html>
