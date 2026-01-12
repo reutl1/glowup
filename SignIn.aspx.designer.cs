@@ -11,7 +11,7 @@ namespace GlowUp
 {
 
 
-    public partial class SingIn
+    public partial class SignIn
     {
     }
 }
