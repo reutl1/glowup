@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\glowup_db.mdf" />
+    <Content Include="App_Data\glowup_db_log.ldf">
+      <DependentUpon>glowup_db.mdf</DependentUpon>
+    </Content>
     <Content Include="Gallery.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="SignIn.aspx" />
@@ -131,6 +135,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
