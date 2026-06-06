@@ -57,3 +57,5 @@ C:\Users\reutl\source\project\GlowUp\GlowUp\obj\Debug\GlowUp.csproj.CoreCompileI
 C:\Users\reutl\source\project\GlowUp\GlowUp\obj\Debug\GlowUp.csproj.Up2Date
 C:\Users\reutl\source\project\GlowUp\GlowUp\obj\Debug\GlowUp.dll
 C:\Users\reutl\source\project\GlowUp\GlowUp\obj\Debug\GlowUp.pdb
+C:\Users\reutl\glowup\obj\Debug\GlowUp.dll
+C:\Users\reutl\glowup\obj\Debug\GlowUp.pdb

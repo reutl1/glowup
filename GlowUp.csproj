@@ -123,6 +123,7 @@
     <Compile Include="Special.aspx.designer.cs">
       <DependentUpon>Special.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SQLHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

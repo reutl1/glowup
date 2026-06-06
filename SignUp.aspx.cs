@@ -7,11 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace GlowUp
 {
-    public partial class SingUp : System.Web.UI.Page
+    public partial class SignUp : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             msg = "we didn't press submit yet";
+            Console.WriteLine(msg);
 
             if (Request.Form["submit"] != null)
             {
@@ -27,6 +28,10 @@ namespace GlowUp
                 password = "12345";
                 
                 string query = "insert into Users values('" + lastName + "','" + firstName + "','" + userName + "','" + password + "','" + isAdmin + "')";
+
+                int res = SQLHelper.DoQuery(query);
+
+                Response.redirect("Home.aspx");
 
             }
         }

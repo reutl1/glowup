@@ -11,21 +11,7 @@ namespace GlowUp
 {
 
 
-    public partial class SingUp
+    public partial class SignUp
     {
-
-        /// <summary>
-        /// Master property.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated property.
-        /// </remarks>
-        public new GlowUp.Site1 Master
-        {
-            get
-            {
-                return ((GlowUp.Site1)(base.Master));
-            }
-        }
     }
 }
