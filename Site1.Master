@@ -9,11 +9,13 @@
     
 </head>
 <body>
-    <div>
+    <div class="nav-bar">
         <a href="Home.aspx">Home</a>
         <a href="Gallery.aspx">Gallery</a>
-        <a href="SignIn.aspx">Sign In</a>
         <a href="Special.aspx">Special</a>
+        <a href="Cart.aspx">Cart <asp:Label ID="CartCountLabel" runat="server" /></a>
+        <asp:HyperLink ID="SignInLink" runat="server" NavigateUrl="SignIn.aspx" Text="Sign In" />
+        <asp:HyperLink ID="SignOutLink" runat="server" NavigateUrl="SignOut.aspx" Text="Sign Out" Visible="false" />
 
 
         

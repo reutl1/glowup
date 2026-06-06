@@ -22,5 +22,8 @@ namespace GlowUp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.Label CartCountLabel;
+        protected global::System.Web.UI.WebControls.HyperLink SignInLink;
+        protected global::System.Web.UI.WebControls.HyperLink SignOutLink;
     }
 }

@@ -7,6 +7,9 @@
 <div class="container">
   <h1 class="title">GLOW UP</h1>
   <p class="subtitle">Log in to your account</p>
+  <% if (Request.QueryString["returnUrl"] == "Checkout.aspx") { %>
+  <p class="subtitle">Sign in to complete your purchase.</p>
+  <% } %>
 
   <form class="signin-form" method="post">
     <label for="email">Email</label>

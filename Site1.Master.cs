@@ -11,7 +11,20 @@ namespace GlowUp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            var itemCount = CartService.GetItemCount(Session);
+            CartCountLabel.Text = itemCount > 0 ? "(" + itemCount + ")" : "";
 
+            if (AuthService.IsLoggedIn(Session))
+            {
+                SignInLink.Visible = false;
+                SignOutLink.Visible = true;
+            }
+            else
+            {
+                SignInLink.Visible = true;
+                SignOutLink.Visible = false;
+            }
         }
+
     }
 }
