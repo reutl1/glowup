@@ -15,7 +15,7 @@
         <a href="SignIn.aspx">Sign In</a>
         <a href="Special.aspx">Special</a>
 
-
+          <%=userMsg %>
         
     </div>
   

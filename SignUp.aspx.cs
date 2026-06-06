@@ -23,9 +23,6 @@ namespace GlowUp
                 string password = Request.Form["password"];
                 string gender = Request.Form["gender"];
                 int isAdmin = 0;
-                int age = 15;
-
-                password = "12345";
                 
                 string query = "insert into Users values('" + lastName + "','" + firstName + "','" + userName + "','" + password + "','" + isAdmin + "')";
 

@@ -9,8 +9,22 @@ namespace GlowUp
 {
     public partial class Site1 : System.Web.UI.MasterPage
     {
+        public string userMsg;
+       
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["userName"] != null)
+            {
+                string userName = Session["userName"].ToString();
+                userMsg = "<td class =\"tdStyle\"> " + "hello" + userName + "<\td>";
+
+
+            }
+            else
+            {
+                userMsg = "";
+            }
+
 
         }
     }
