@@ -11,7 +11,7 @@ namespace GlowUp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            msg = "we didn't press submit yet";
+            string msg = "we didn't press submit yet";
             Console.WriteLine(msg);
 
             if (Request.Form["submit"] != null)
@@ -31,7 +31,7 @@ namespace GlowUp
 
                 int res = SQLHelper.DoQuery(query);
 
-                Response.redirect("Home.aspx");
+                Response.Redirect("Home.aspx");
 
             }
         }
